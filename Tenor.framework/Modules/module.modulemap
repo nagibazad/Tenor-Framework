@@ -1,0 +1,11 @@
+framework module Tenor {
+  umbrella header "Tenor.h"
+
+  export *
+  module * { export * }
+}
+
+module Tenor.Swift {
+    header "Tenor-Swift.h"
+    requires objc
+}
